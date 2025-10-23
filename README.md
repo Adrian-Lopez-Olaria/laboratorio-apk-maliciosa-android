@@ -160,18 +160,6 @@ Una vez establecida la conexión Meterpreter, se obtuvo acceso completo al siste
 - **Lenguaje del Sistema**: Español (es_ES)
 - **Tipo de Meterpreter**: dalvik/android (especializado para Android)
 
-**Proceso de Ejecución de Comandos:**
-1. **Inicio de Shell**: `shell` - Creación de proceso sh (PID 4760) y canal de comunicación
-2. **Navegación del Sistema**: `pwd` - Reveló ubicación en `/data/user/0/com.metasploit.stage/files`
-3. **Exploración de Directorio**: `ls` - Mostró contenido incluyendo directorio `oat`
-4. **Monitoreo de Procesos**: `ps` - Listado de procesos activos del usuario u0_a312
-
-**Detalles Técnicos de los Procesos:**
-- **Proceso Shell**: PID 4760, PPID 7556, ejecutando `/bin/sh`
-- **Proceso PS**: PID 5849, mostrando información de procesos del sistema
-- **Usuario**: u0_a312 (usuario de aplicación estándar de Android)
-- **Estado de Procesos**: Activos y respondiendo a comandos
-
 **Capacidades Demostradas:**
 - Ejecución arbitraria de comandos del sistema
 - Acceso al sistema de archivos del usuario
@@ -245,3 +233,4 @@ Este laboratorio demuestra que:
 ---
 
 **📝 Nota**: Este laboratorio se realizó en un entorno completamente aislado y controlado con el único propósito de investigación y educación en ciberseguridad.
+
